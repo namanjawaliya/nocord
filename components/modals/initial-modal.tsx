@@ -11,7 +11,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Form, FormField } from "../ui/form";
+import { Form, FormField } from "@/components/ui/form";
 
 const formSchema = z.object({
   name: z.string().min(1, {

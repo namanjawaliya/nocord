@@ -34,6 +34,7 @@ const formSchema = z.object({
 });
 
 export const InitialModal = () => {
+  // to handle hydration errors
   const [isMounted, setIsMounted] = useState(false);
   useEffect(() => {
     setIsMounted(true);
